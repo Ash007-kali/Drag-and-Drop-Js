@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.droppable{
+    height: 100px;
+    width: 100px;
+    background-color: beige;
+    margin: 40px;
+}
+
+.draggable{
+    background-color: hotpink;
+    height: 100%;
+    width: 100%;
+    cursor: grab;
+}
