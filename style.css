@@ -12,12 +12,20 @@ body {
     height: 100px;
     width: 100px;
     background-color: beige;
-    margin: 40px;
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .draggable{
-    background-color: hotpink;
-    height: 100%;
-    width: 100%;
+    background-color: coral;
+    height: 90px;
+    width: 90px;
     cursor: grab;
+}
+
+.hold {
+    opacity: 80%;
+    border: 2px solid black;
 }
